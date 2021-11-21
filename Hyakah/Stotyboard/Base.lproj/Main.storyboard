@@ -6351,13 +6351,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="CHk-Uf-qxR">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="491.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="530"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="GHu-Fa-Diq">
-                                                <rect key="frame" x="16" y="39" width="382" height="362.5"/>
+                                                <rect key="frame" x="16" y="39" width="382" height="401"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdh-m5-RDv" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="39.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="382" height="52.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" name="WhiteTextColor"/>
                                                         <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="16"/>
@@ -6389,7 +6389,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S0a-HE-cat" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="0.0" y="69.5" width="382" height="39.5"/>
+                                                        <rect key="frame" x="0.0" y="82.5" width="382" height="52"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="tintColor" name="GrayTectColor"/>
                                                         <color key="textColor" name="WhiteTextColor"/>
@@ -6422,7 +6422,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="skr-J6-krY" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                        <rect key="frame" x="0.0" y="139" width="382" height="39.5"/>
+                                                        <rect key="frame" x="0.0" y="164.5" width="382" height="52.5"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" name="WhiteTextColor"/>
                                                         <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="16"/>
@@ -6454,7 +6454,7 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </textField>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="bwV-co-OBa">
-                                                        <rect key="frame" x="0.0" y="208.5" width="382" height="154"/>
+                                                        <rect key="frame" x="0.0" y="247" width="382" height="154"/>
                                                         <subviews>
                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="نص التواصل" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aC4-1W-1da">
                                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="150"/>
@@ -6482,7 +6482,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="j7X-Sd-mKj">
-                                                <rect key="frame" x="16" y="441.5" width="382" height="50"/>
+                                                <rect key="frame" x="16" y="480" width="382" height="50"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pz-6u-Z4C">
                                                         <rect key="frame" x="80.5" y="0.0" width="221" height="50"/>
@@ -8786,17 +8786,38 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="0xK-f6-MX5">
+            <size key="intrinsicContentSize" width="23" height="23"/>
+        </designable>
+        <designable name="9DK-f5-8vs">
+            <size key="intrinsicContentSize" width="23" height="23"/>
+        </designable>
+        <designable name="EiJ-sT-InY">
+            <size key="intrinsicContentSize" width="35" height="3"/>
+        </designable>
+        <designable name="MUT-Zf-b9k">
+            <size key="intrinsicContentSize" width="23" height="23"/>
+        </designable>
         <designable name="S0a-HE-cat">
-            <size key="intrinsicContentSize" width="133.5" height="39.5"/>
+            <size key="intrinsicContentSize" width="382" height="52.273671874999998"/>
+        </designable>
+        <designable name="Uht-QW-XGM">
+            <size key="intrinsicContentSize" width="23" height="23"/>
         </designable>
         <designable name="cdh-m5-RDv">
-            <size key="intrinsicContentSize" width="69.5" height="39.5"/>
+            <size key="intrinsicContentSize" width="382" height="52.273671874999998"/>
+        </designable>
+        <designable name="dfz-Qn-ysh">
+            <size key="intrinsicContentSize" width="23" height="23"/>
+        </designable>
+        <designable name="k6p-WS-V8K">
+            <size key="intrinsicContentSize" width="120" height="20"/>
         </designable>
         <designable name="sG5-LZ-4Z3">
-            <size key="intrinsicContentSize" width="102" height="21.5"/>
+            <size key="intrinsicContentSize" width="344" height="42.318671875"/>
         </designable>
         <designable name="skr-J6-krY">
-            <size key="intrinsicContentSize" width="73" height="39.5"/>
+            <size key="intrinsicContentSize" width="382" height="52.273671874999998"/>
         </designable>
     </designables>
     <resources>
