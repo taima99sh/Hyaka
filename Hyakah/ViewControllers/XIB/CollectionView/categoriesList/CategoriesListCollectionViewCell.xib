@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Janna LT Regular.ttf">
+            <string>JannaLT-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoriesListCollectionViewCell" id="gTV-IL-0wX" customClass="CategoriesListCollectionViewCell" customModule="Hyakah_Store" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="185" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="185" height="142"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZr-F9-IvX">
+                        <rect key="frame" x="0.0" y="0.0" width="185" height="142"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cellImage" translatesAutoresizingMaskIntoConstraints="NO" id="Q3F-Ju-z5a">
+                                <rect key="frame" x="0.0" y="0.0" width="185" height="142"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadowImage" translatesAutoresizingMaskIntoConstraints="NO" id="n74-5a-6kw">
+                                <rect key="frame" x="0.0" y="0.0" width="185" height="142"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="449ر.س" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Jbb-46-w8V">
+                                <rect key="frame" x="56.5" y="100.5" width="72" height="26"/>
+                                <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="22"/>
+                                <color key="textColor" name="WhiteTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0f-84-acB">
+                                <rect key="frame" x="132" y="15" width="38" height="34"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="fiilheartIcon"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="imageTinitColor">
+                                        <color key="value" name="secondaryColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jbb-46-w8V" firstAttribute="centerX" secondItem="PZr-F9-IvX" secondAttribute="centerX" id="0qk-D1-FjH"/>
+                            <constraint firstAttribute="trailing" secondItem="Q3F-Ju-z5a" secondAttribute="trailing" id="2Rm-1T-4kn"/>
+                            <constraint firstAttribute="trailing" secondItem="n74-5a-6kw" secondAttribute="trailing" id="6s7-zL-mDF"/>
+                            <constraint firstAttribute="bottom" secondItem="n74-5a-6kw" secondAttribute="bottom" id="Bvy-cU-iKv"/>
+                            <constraint firstItem="K0f-84-acB" firstAttribute="top" secondItem="PZr-F9-IvX" secondAttribute="top" constant="15" id="D5P-1i-fLx"/>
+                            <constraint firstItem="Q3F-Ju-z5a" firstAttribute="top" secondItem="PZr-F9-IvX" secondAttribute="top" id="QKV-NK-Qgq"/>
+                            <constraint firstAttribute="bottom" secondItem="Q3F-Ju-z5a" secondAttribute="bottom" id="SwN-Fg-ayN"/>
+                            <constraint firstItem="Jbb-46-w8V" firstAttribute="centerY" secondItem="PZr-F9-IvX" secondAttribute="centerY" multiplier="1.6" id="e3j-9K-bTP"/>
+                            <constraint firstItem="n74-5a-6kw" firstAttribute="leading" secondItem="PZr-F9-IvX" secondAttribute="leading" id="kan-Q7-tLN"/>
+                            <constraint firstItem="n74-5a-6kw" firstAttribute="top" secondItem="PZr-F9-IvX" secondAttribute="top" id="kdZ-dY-sGe"/>
+                            <constraint firstAttribute="trailing" secondItem="K0f-84-acB" secondAttribute="trailing" constant="15" id="klW-rv-EFl"/>
+                            <constraint firstItem="Q3F-Ju-z5a" firstAttribute="leading" secondItem="PZr-F9-IvX" secondAttribute="leading" id="oXB-PU-ggJ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="PZr-F9-IvX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="07m-jm-ink"/>
+                <constraint firstAttribute="bottom" secondItem="PZr-F9-IvX" secondAttribute="bottom" id="6F4-zl-TDq"/>
+                <constraint firstItem="PZr-F9-IvX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="JLx-5I-yEZ"/>
+                <constraint firstAttribute="trailing" secondItem="PZr-F9-IvX" secondAttribute="trailing" id="vjs-9q-3LM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="185" height="142"/>
+            <connections>
+                <outlet property="btnFav" destination="K0f-84-acB" id="hhU-ur-F9S"/>
+                <outlet property="imgView" destination="Q3F-Ju-z5a" id="8Z9-pn-pKn"/>
+                <outlet property="lblPrice" destination="Jbb-46-w8V" id="zf0-NF-Wu0"/>
+            </connections>
+            <point key="canvasLocation" x="39.855072463768117" y="152.67857142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cellImage" width="157" height="157"/>
+        <image name="fiilheartIcon" width="19" height="17"/>
+        <image name="shadowImage" width="157" height="157"/>
+        <namedColor name="WhiteTextColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondaryColor">
+            <color red="0.85098039215686272" green="0.76078431372549016" blue="0.51764705882352946" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

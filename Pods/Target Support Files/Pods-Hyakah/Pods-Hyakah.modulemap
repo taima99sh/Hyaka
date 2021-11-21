@@ -1,0 +1,6 @@
+framework module Pods_Hyakah {
+  umbrella header "Pods-Hyakah-umbrella.h"
+
+  export *
+  module * { export * }
+}

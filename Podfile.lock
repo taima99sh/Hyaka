@@ -1,0 +1,123 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - BEMCheckBox (1.4.1)
+  - Cosmos (22.1.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FBSDKCoreKit (7.1.1):
+    - FBSDKCoreKit/Basics (= 7.1.1)
+    - FBSDKCoreKit/Core (= 7.1.1)
+  - FBSDKCoreKit/Basics (7.1.1)
+  - FBSDKCoreKit/Core (7.1.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (7.1.1):
+    - FBSDKLoginKit/Login (= 7.1.1)
+  - FBSDKLoginKit/Login (7.1.1):
+    - FBSDKCoreKit (~> 7.1.1)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.0.0):
+    - AppAuth/Core (~> 1.0)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.4.0):
+    - GTMSessionFetcher/Full (= 1.4.0)
+  - GTMSessionFetcher/Core (1.4.0)
+  - GTMSessionFetcher/Full (1.4.0):
+    - GTMSessionFetcher/Core (= 1.4.0)
+  - IQKeyboardManagerSwift (6.5.0)
+  - Kingfisher (5.13.2):
+    - Kingfisher/Core (= 5.13.2)
+  - Kingfisher/Core (5.13.2)
+  - MBProgressHUD (1.2.0)
+  - ObjectMapper (3.5.3)
+  - PryntTrimmerView (4.0.0)
+  - SCLAlertView (0.8)
+  - SkyFloatingLabelTextField (3.6.0)
+  - SteviaLayout (4.6.1)
+  - SwiftMessages (8.0.2):
+    - SwiftMessages/App (= 8.0.2)
+  - SwiftMessages/App (8.0.2)
+  - SwiftyJSON (4.0.0)
+  - YPImagePicker (4.1.2):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.6.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireObjectMapper (~> 5.2.1)
+  - BEMCheckBox
+  - Cosmos (= 22.1.0)
+  - DZNEmptyDataSet
+  - FBSDKLoginKit
+  - GoogleSignIn
+  - IQKeyboardManagerSwift (= 6.5.0)
+  - Kingfisher (= 5.13.2)
+  - MBProgressHUD
+  - ObjectMapper (~> 3.4)
+  - SCLAlertView
+  - SkyFloatingLabelTextField (= 3.6.0)
+  - SwiftMessages
+  - SwiftyJSON (~> 4.0.0)
+  - YPImagePicker (= 4.1.2)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - AppAuth
+    - BEMCheckBox
+    - Cosmos
+    - DZNEmptyDataSet
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - MBProgressHUD
+    - ObjectMapper
+    - PryntTrimmerView
+    - SCLAlertView
+    - SkyFloatingLabelTextField
+    - SteviaLayout
+    - SwiftMessages
+    - SwiftyJSON
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  Cosmos: 2795b36ad4bbea1af3050d6d65576ed63875f86a
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
+  FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  IQKeyboardManagerSwift: 6cd19976c6e871907c4ed9127c2d3affdd4defc2
+  Kingfisher: d342c8354c10c3d85a27d6d4c42c41285924b898
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+  SteviaLayout: 0c83442390c8a369c21f975ffbd812d11532645b
+  SwiftMessages: 633304165351b8e3dcbb81a71f8efcd86f9c1669
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  YPImagePicker: bdaa46782668e260fdd9709f19043a9f469fd2ad
+
+PODFILE CHECKSUM: bfc83ea802ceaf67bc455364c86036fc5048c080
+
+COCOAPODS: 1.8.4
